@@ -1,8 +1,8 @@
 body {
-    background: #1E1E1E;
-    color: #558B3D;
+    background: #250824;
+    color: #871646;
     font-family: 'Ubuntu Mono';
-    font-size: 14px;
+    font-size: 18px;
     margin: 0;
     padding:0;
 }
@@ -20,28 +20,28 @@ main h1 {
 .search-box {
     width: 525px;
     height: 30px;
-    color: #558B3D;
-    background-color: #1a1a1a;
-    border: 1px solid #558B3D;
+    color: #871646;
+    background-color: #320c23;
+    border: 1px solid #871646;
     box-shadow: 0 0 5px #000;
     text-align: center;
     margin: 20px 0 10px 0;
     font-family: 'Ubuntu Mono';
-    font-size: 14px;
+    font-size: 18px;
 }
 .search-box:focus {
     outline-width: 0;
 }
 
 .search-box::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: rgba(84, 138, 61, 0.35);
+    color: #6e084a;
 }
 .search-box::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: rgba(84, 138, 61, 0.5);
+    color: #ac177d;
     opacity:  1;
 }
 .search-box:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
-    color: rgba(84, 138, 61, 0.5);
+    color: #ac177d;
 }
 
 
@@ -78,13 +78,13 @@ nav ul strong {
 */
 
 nav ul a {
-    color: rgba(84, 138, 61, 0.5);
+    color: #fc3c4c;
     text-decoration: none;
     line-height: 200%;
 }
 
 nav ul a:visited {
-    color: rgba(84, 138, 61, 0.5);
+    color: #fc3c4c;
 }
 
 .character {
@@ -96,7 +96,7 @@ nav ul a:visited {
 }
 
 footer {
-    background-color: #1a1a1a;
+    background-color: #320c23;
     position: fixed;
     width: 100%;
     height: 20px;
